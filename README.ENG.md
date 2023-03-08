@@ -1,8 +1,8 @@
 # Aria2 one-click installation management script enhanced version
 
-[![LICENSE](https://img.shields.io/github/license/P3TERX/aria2.sh?style=flat-square)](https://github.com/P3TERX/aria2.sh/blob/ master/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/P3TERX/aria2.sh.svg?style=flat-square&label=Stars&logo=github)](https://github.com/P3TERX /aria2.sh/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/P3TERX/aria2.sh.svg?style=flat-square&label=Forks&logo=github)](https://github.com/P3TERX /aria2.sh/fork)
+[![LICENSE](https://img.shields.io/github/license/P3TERX/aria2.sh?style=flat-square)](https://github.com/P3TERX/aria2.sh/blob/master/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/P3TERX/aria2.sh.svg?style=flat-square&label=Stars&logo=github)](https://github.com/P3TERX/aria2.sh/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/P3TERX/aria2.sh.svg?style=flat-square&label=Forks&logo=github)](https://github.com/P3TERX/aria2.sh/fork)
 
 Aria2 is currently the most powerful all-round download tool, it supports BT, magnet, HTTP, FTP and other download protocols, and is often used as a server for offline downloads. The Aria2 one-click installation management script is one of the most well-known script works of the Toyo boss. On November 14, 2018, the Toyo boss suddenly lost contact due to unknown reasons. Since the blogger likes Aria2 very much, he has taken over this project since December 7, 2018, and has optimized a lot of functions and details, and has continued to maintain it until now. The enhanced version of the script integrates [Aria2 Perfect Configuration](https://github.com/P3TERX/aria2.conf). This configuration scheme will be downloaded during the installation of Aria2. This scheme includes configuration files and additional function scripts and other files are used to enhance and expand Aria2 functions, improve the download speed and user experience of Aria2, and solve the problems encountered in the use of Aria2 such as no BT download speed, disk space occupied by residual files, task loss, and repeated downloads.
 
