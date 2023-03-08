@@ -145,14 +145,14 @@ dht6.dat
 move.sh
 LICENSE
 "
-    mkdir -p "${aria2_conf_dir}" && cd "${aria2_conf_dir}"
+    mkdir -p "${aria2_conf_dir}" && cd "${aria2_conf_dir}" || exit
     for PROFILE in ${PROFILE_LIST}; do
         [[ ! -f ${PROFILE} ]] && rm -rf ${PROFILE}
         wget -N -t2 -T3 ${PROFILE_URL1}/${PROFILE} ||
             wget -N -t2 -T3 ${PROFILE_URL2}/${PROFILE} ||
             wget -N -t2 -T3 ${PROFILE_URL3}/${PROFILE}
         [[ ! -s ${PROFILE} ]] && {
-            echo -e "${Error} '${PROFILE}' 下载失败！清理残留文件..."
+            echo -e "${Error} '${PROFILE}' download failed! Clean up files.../下载失败！清理残留文件..."
             rm -vrf "${aria2_conf_dir}"
             exit 1
         }
