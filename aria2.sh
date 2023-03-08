@@ -318,7 +318,7 @@ Set_aria2_RPC_passwd() {
             fi
         fi
     else
-        echo -e "${Error} Consistent with the old configuration, no modification needed..."/与旧配置一致，无需修改..."
+        echo -e "${Error} Consistent with the old configuration, no modification needed.../与旧配置一致，无需修改..."
     fi
 }
 Set_aria2_RPC_port() {
@@ -412,7 +412,7 @@ The current download directory is/当前下载目录为: ${Green_font_prefix}${a
             fi
         fi
     else
-        echo -e "${Error} Consistent with the old configuration, no modification needed..."/与旧配置一致，无需修改..."
+        echo -e "${Error} Consistent with the old configuration, no modification needed.../与旧配置一致，无需修改..."
     fi
 }
 Set_aria2_RPC_passwd_port_dir() {
