@@ -121,7 +121,7 @@ Download_aria2() {
         wget -t2 -T3 -O- "${DOWNLOAD_URL}" ||
             wget -t2 -T3 -O- "https://gh-acc.p3terx.com/${DOWNLOAD_URL}"
     } | tar -zx
-    [[ ! -s "aria2c" ]] && echo -e "${Error} Aria2 download failed!"/Aria2 下载失败 !" && exit 1
+    [[ ! -s "aria2c" ]] && echo -e "${Error} Aria2 download failed!/Aria2 下载失败 !" && exit 1
     [[ ${update_dl} = "update" ]] && rm -f "${aria2c}"
     mv -f aria2c "${aria2c}"
     [[ ! -e ${aria2c} ]] && echo -e "${Error} Aria2 main program installation failed!/Aria2 主程序安装失败！" && exit 1
